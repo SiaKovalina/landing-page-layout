@@ -1,0 +1,82 @@
+@font-face {
+	font-family: klavika;
+	src: url(../fonts/klavika-regular.otf);
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: klavika;
+	src: url(../fonts/klavika-bold.otf);
+	font-weight: 600;
+}
+
+body {
+	font-family: klavika, arvo, "Helvetica neue", serif;
+	font-size: 16px;
+}
+
+.navbar {
+	background-color: transparent;
+	border: none;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+.navbar-brand img {
+	width: 90%;
+	max-width: 353px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fefefe;
+    text-transform: uppercase;
+    opacity: .7;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.jumbotron {
+	background: url(../images/background.jpg) center/cover no-repeat;
+	padding-top: 170px;
+	padding-bottom: 170px;
+	border-top: solid 3px #e74c3c;
+	margin-top: -65px;
+	margin-bottom: 0;
+}
+
+.jumbotron h1 {
+	padding: 10px;
+	text-align: center;
+	margin: 10px 20px;
+	font-weight: 600;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 2px #333;
+}
+
+#bottom-section .col-md-4 {
+	min-height: 300px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#byfw {
+	background-image: url(../images/byfw.jpg);
+	background-color: #e74c3c;
+}
+
+#baw {
+	background-image: url(../images/baw.png);
+	background-color: #f39c12;
+}
+
+#oml {
+	background-image: url(../images/oml.jpg);
+	background-color: #f0c312;
+}
+
+.highlight {
+	color: #e74c3c;
+}
