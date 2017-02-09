@@ -60,6 +60,40 @@ body {
 	min-height: 300px;
 	background-size: 100%;
     background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 235px;
+}
+
+#bottom-section .col-md-4:hover {
+	opacity: 0.9;
+}
+
+footer {
+	background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 200;
+    color: #fefefe;
+}
+
+footer p {
+	padding-top: 8px;
+}
+
+#bottom-section .col-md-4 p {
+	color: white;
+	font-family: klavika, "arvo", sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	margin-bottom: 10px;
+
+}
+
+#bottom-section .col-md-4 .btn-success {
+	background-color: #27ae60;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: 100;
 }
 
 #byfw {
