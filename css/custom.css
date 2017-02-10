@@ -68,17 +68,6 @@ body {
 	opacity: 0.9;
 }
 
-footer {
-	background-color: #333;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 200;
-    color: #fefefe;
-}
-
-footer p {
-	padding-top: 8px;
-}
 
 #bottom-section .col-md-4 p {
 	color: white;
@@ -109,6 +98,28 @@ footer p {
 #oml {
 	background-image: url(../images/oml.jpg);
 	background-color: #f0c312;
+}
+
+
+footer {
+	background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 200;
+    color: #fefefe;
+}
+
+footer p {
+	padding-top: 8px;
+}
+footer a {
+	color: #ccc;
+}
+
+/* Universal styling */
+
+.right-align {
+	text-align: right;
 }
 
 .highlight {
